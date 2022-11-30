@@ -1,0 +1,49 @@
+.form{
+
+    border-radius:10px;
+    margin: 10%;
+  }
+  
+  button{
+    border: 1px solid transparent;
+    padding: 10px;
+    color: white;
+    background-color:rgb(85, 194, 195)!important;
+    border-radius: 15%;
+    margin-left: 20px !important;
+  }
+  .textfield{
+    color: white !important;
+    border-color: white !important;
+    background-color: white;
+    
+  }
+  .location-icon{
+    color: #F4AF1B;
+    font-size: 1.9rem;
+  }
+  .city{
+    color: #F4AF1B;
+    font-size: 2.2rem;
+  }
+  .temp{
+    /* padding-top: 12px; */
+    font-size: 1.5rem;
+    color: #F4AF1B;
+  }
+  .title{
+    color: rgb(85, 194, 195);
+    margin: 4rem;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+.icon-img{width: 20rem;
+  height: 20rem;
+}
+
+.txtwe{
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 500;
+}
+
