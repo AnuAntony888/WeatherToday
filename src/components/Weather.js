@@ -72,7 +72,8 @@ function Weather() {
  
                   <h5 className="city"><MdLocationOn className='location-icon'/>{data?.name}</h5>
                   <h6 className="temp">{((data?.main?.temp) - 273.15).toFixed(2)}°C</h6>
-                  {/* <p >{data?.weather[0]?.description}</p> */}
+                  <p className='txtwe'>Description: {data?.weather?.[0]?.description}</p>
+
                    <p className='txtwe'>Wind:{data?.wind?.speed} m/s</p> 
                    <p className='txtwe'>Humidity:{data?.main?.humidity}%</p> 
                    <p className='txtwe'>Pressure:{data?.main?.pressure}hPa</p> 
