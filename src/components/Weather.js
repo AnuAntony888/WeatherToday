@@ -66,7 +66,7 @@ function Weather() {
 
                 <TextField id="outlined-search"  
                   className='textfield' size="small"
-                  label="Search your city" type="search" 
+                type="search" placeholder='Search your city'
                   value={inputCity} onChange={handleChangeInput}/>
                 <Button  type='button' onClick={handleSearch} variant="contained" className='button'>Search</Button>
  
